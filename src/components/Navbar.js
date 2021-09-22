@@ -10,7 +10,7 @@ const Navbar = () => {
                 <Link to='/' className='navbar-logo'>
                     <div class="logo">
                         <div class="logo-text">BestBuy</div>
-                        <img src='logo192.png' class='logo-img' />
+                        <img src='logo200.png' class='logo-img' />
                     </div>
                 </Link>
                 <ul className='main-navigation'>

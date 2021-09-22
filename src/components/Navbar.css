@@ -1,5 +1,5 @@
 nav {
-    background: linear-gradient(90deg, rgb(27, 38, 41) 0%, rgb(26, 23, 23) 100%);
+    background: linear-gradient(90deg, rgb(238, 239, 240) 0%, rgb(238, 239, 240) 100%);
     opacity: 90%;
     height: 80px;
     display: flex;
@@ -36,11 +36,12 @@ nav {
 
 .logo-text {
     position: absolute;
+    color: black;
 }
 
 .logo-img {
-    margin-left: 135px;
-    width: 70px;
+    margin-left: 110px;
+    width: 80px;
     height: 50px;
 
 }

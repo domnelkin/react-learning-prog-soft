@@ -1,0 +1,21 @@
+.news-block {
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 280px; 
+    height: 400px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(238, 239, 240);
+  }
+
+  h4 {
+      text-decoration: none;
+      color: black;
+  }
+
+  p {
+      text-decoration: none;
+  }

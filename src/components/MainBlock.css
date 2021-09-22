@@ -1,0 +1,27 @@
+.main-img {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: 50%;
+    z-index: 2;
+}
+
+a h3 {
+    color:white;
+    font-size: 70px;
+    position: absolute;
+    margin-top: -560px;
+    z-index: 1000;
+    padding-left: 170px;
+    text-decoration: none;
+}
+
+.main-block-small-text {
+    position: absolute;
+    font-size: 30px;
+    color: rgb(12, 11, 11);
+    padding-right: 100px;
+    z-index: 1000;
+}

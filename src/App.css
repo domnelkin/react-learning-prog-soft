@@ -3,3 +3,14 @@
     grid-template-columns: repeat(3, auto);
     grid-gap: 10px;
 }
+
+.main-btn {
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 280px; 
+  height: 400px;
+  padding: 10px;
+  margin: auto;
+}
