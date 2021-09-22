@@ -1,7 +1,10 @@
 .blog {
+  padding-top: 20%;
     display: grid;
     grid-template-columns: repeat(3, auto);
-    grid-gap: 10px;
+    grid-gap: 100px;
+    justify-content: center;
+    width: 100%;
 }
 
 .main-btn {
@@ -9,8 +12,9 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  width: 280px; 
-  height: 400px;
+  width:8%; 
+  height: 10%;
   padding: 10px;
   margin: auto;
+  margin-top: 4%;
 }

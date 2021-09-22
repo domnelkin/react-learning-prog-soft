@@ -5,23 +5,36 @@
 img {
     width: 100%;
     height: 50%;
-    z-index: 2;
+    z-index: 1;
 }
 
 a h3 {
     color:white;
     font-size: 70px;
     position: absolute;
-    margin-top: -560px;
+    margin-top: -460px;
     z-index: 1000;
     padding-left: 170px;
     text-decoration: none;
 }
 
-.main-block-small-text {
+.content-of-small-text {
     position: absolute;
-    font-size: 30px;
-    color: rgb(12, 11, 11);
-    padding-right: 100px;
-    z-index: 1000;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%; 
+    height: 50%;
+    padding: 10px;
+    margin: auto;
+    margin-top: -190px;
+    margin-left: 10%;
+    border-radius: 10px;
+    background-color: rgb(238, 239, 240);
+}
+
+.main-block-small-text {
+    color: rgb(88, 40, 40);
+    font-size: 22px;
 }
