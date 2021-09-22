@@ -3,13 +3,11 @@ import { Link } from 'react-router-dom';
 
 const NewsBlock = (props) => {
     return (
-        <Link to={props.link} className='news-block'>
-            <div>
-                <img src={props.img} />
-                <h3>{props.title}</h3>
-                <p>{props.text}</p>
+            <div className='news-block'>
+                <Link to={props.link}><img src={props.img} /></Link>
+                <Link to={props.link}><h3>{props.title}</h3></Link>
+                <Link to={props.link}><p>{props.text}</p></Link>
             </div>
-        </Link>
     );
 }
 

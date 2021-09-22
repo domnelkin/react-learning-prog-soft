@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import NewsBlock from "../NewsBlock";
 import MainBlock from '../MainBlock'
+import ContentButton from "../ContentButton";
 
 class Home extends React.Component {
     render() {
@@ -32,6 +33,9 @@ class Home extends React.Component {
                         text='sufjdsugbdsudjaIDN ASFSDJGBSD SHGBSHDBVDSJ GDSGHFUHASJIR SDGJB'
                         link='/'
                     />
+                </div>
+                <div>
+                    <ContentButton link='/' name='View more' />
                 </div>
             </div>
         );

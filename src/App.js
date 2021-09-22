@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import Catalog from './components/pages/Catalog';
 import Cart from './components/pages/Cart';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/catalog' component={Catalog} />
           <Route path='/cart' component={Cart} />
         </Switch>
+        <Footer />
       </Router>
     </>
   );
