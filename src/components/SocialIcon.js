@@ -1,4 +1,5 @@
 import React from 'react';
+import "./SocialIcon.css"
 import { Link } from 'react-router-dom';
 
 const SocialIcon = (props) => {
