@@ -18,3 +18,15 @@
   margin: auto;
   margin-top: 4%;
 }
+
+.main-text-content {
+  position: absolute;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width:100%; 
+  padding: 10px;
+  margin: auto;
+  margin-top: 15%;
+}
