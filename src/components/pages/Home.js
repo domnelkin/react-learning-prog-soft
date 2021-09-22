@@ -1,4 +1,5 @@
 import React from "react";
+import '../../App.css';
 import NewsBlock from "../NewsBlock";
 import MainBlock from '../MainBlock'
 import ContentButton from "../ContentButton";
