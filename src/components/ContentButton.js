@@ -1,4 +1,5 @@
 import React from 'react';
+import './ContentButton.css';
 import { Link } from 'react-router-dom';
 
 const ContentButton = (props) => {

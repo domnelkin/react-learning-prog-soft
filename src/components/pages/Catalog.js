@@ -1,9 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Catalog extends React.Component {
-    render() {
-        return "Catalog";
-    }
+const Catalog = () => {
+    return "Catalog";
 }
 
 export default Catalog;
