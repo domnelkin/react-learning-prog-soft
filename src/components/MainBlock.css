@@ -12,9 +12,9 @@ a h3 {
     color:white;
     font-size: 70px;
     position: absolute;
-    margin-top: -460px;
+    margin-top: -350px;
     z-index: 1000;
-    padding-left: 170px;
+    padding-left: 5%;
     text-decoration: none;
 }
 
