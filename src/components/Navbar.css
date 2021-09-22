@@ -1,21 +1,48 @@
 nav {
     background: linear-gradient(90deg, rgb(27, 38, 41) 0%, rgb(26, 23, 23) 100%);
-  opacity: 90%;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
-  position: sticky;
-  top: 0;
-  z-index: 999;
+    opacity: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
+
 .nav-container {
     display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80px;
-  max-width: 1500px;
+    align-items: center;
+    height: 80px;
+    max-width: 1500px;
+}
+
+.navbar-logo {
+    position: absolute;
+    color: #fff;
+    margin-left: -10%;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    display: inline-block;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo-text {
+    position: absolute;
+}
+
+.logo-img {
+    margin-left: 135px;
+    width: 70px;
+    height: 50px;
+
 }
 
 .main-navigation {
@@ -27,8 +54,4 @@ nav {
     width: 60vw;
     justify-content: center;
     margin-right: 2rem;
-  }
-  
-  .main-navigation li {
-    height: 80px;
-  }
+}
