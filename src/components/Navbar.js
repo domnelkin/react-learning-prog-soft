@@ -1,4 +1,5 @@
 import React from "react";
+import './Navbar.css';
 import HeaderButton from "./HeaderButton";
 import { Link } from 'react-router-dom';
 
