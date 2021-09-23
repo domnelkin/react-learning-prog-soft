@@ -1,21 +1,46 @@
 .news-block {
-    text-decoration: none;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    width: 280px; 
-    height: 400px;
-    padding: 10px;
-    margin: auto;
-    border-radius: 10px;
-    background-color: rgb(238, 239, 240);
-  }
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 280px; 
+  height: 400px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: rgb(238, 239, 240);
+}
 
 h4 {
-      text-decoration: none;
-      color: black;
-  }
+    text-decoration: none;
+    color: black;
+}
 
 #link p {
-      text-decoration: none;
-  }
+    text-decoration: none;
+}
+
+.news-block a:link {
+color: black;
+text-decoration: none;
+}
+
+.news-block a:visited {
+color: black;
+text-decoration: none;
+}
+
+.news-block a:hover {
+color: black;
+text-decoration: underline;
+}
+
+.news-block a:active {
+color: black;
+text-decoration: none;
+}
+
+.news-block img:hover {
+border-style:groove;
+border-color: rgb(204, 204, 204);
+}
