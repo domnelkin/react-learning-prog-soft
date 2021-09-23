@@ -19,3 +19,28 @@ h4 {
 #link p {
       text-decoration: none;
   }
+
+.news-block a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.news-block a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.news-block a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.news-block a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.news-block img:hover {
+  border-style:groove;
+  border-color: rgb(204, 204, 204);
+}
