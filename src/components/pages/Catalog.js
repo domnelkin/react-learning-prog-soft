@@ -21,6 +21,7 @@ const Catalog = () => {
                                 title={element.title}
                                 text={cutDescription(element.description)}
                                 price={element.price}
+                                link={`/catalog${element.link}`}
                             />
                         </div>
                     )}

@@ -9,7 +9,7 @@ const GoodCard = (props) => {
                 <p className='card-number'>{props.good_code}</p>  
             </div>
             <div className='good-image-container'>
-                <Link to={props.link}><img src={props.img} /></Link>
+                <Link to={props.link}><img src={props.img} alt='Good Card' /></Link>
             </div>
             <div className='good-description'>
                 <Link to={props.link}><h4>{props.title}</h4></Link>

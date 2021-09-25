@@ -8,12 +8,12 @@ const Navbar = () => {
         <nav>
             <div className='nav-container'>
                 <Link to='/' className='navbar-logo'>
-                    <div class="logo">
-                        <div class="logo-text">BestBuy</div>
-                        <img src='logo200.png' class='logo-img' />
+                    <div className="logo">
+                        <div className="logo-text">BestBuy</div>
+                        <img src='logo200.png' className='logo-img' alt='Logo' />
                     </div>
                 </Link>
-                <ul className='main-navigation'>
+                <ul className='main-navigation'>            
                     <li>
                         <HeaderButton link='/' name='Home' />
                     </li>
