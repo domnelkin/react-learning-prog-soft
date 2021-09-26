@@ -18,7 +18,7 @@ const Catalog = () => {
                             <GoodCard
                                 good_code={Math.floor(Math.random() * 9999)}
                                 img={element.img}
-                                title={element.title}
+                                title={element.name}
                                 text={cutDescription(element.description)}
                                 price={element.price}
                                 link={`/catalog${element.link}`}

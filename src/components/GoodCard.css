@@ -16,8 +16,12 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    background-color: #e2e2e2;
+    border-radius: 5px;
     width: 280px;
     height: 80px;
+    margin-top: 300px;
+    padding-bottom: 20px;
   }
 
   .card-number {
@@ -27,7 +31,7 @@
   }
 
   .good-card-top {
-      background-color: #e0dcdc;
+      background-color: #e2e2e2;
       width: 280px;
       border-radius: 5px;
   }
@@ -37,3 +41,37 @@
     margin-left: 65px;
   }
 
+  .good-image-container {
+      position: absolute;
+      width: 280px;
+      height: 500px;
+  }
+
+  .good-image-container img {
+      border-radius: 5px;
+  }
+
+  .good-description a:link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .good-description a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .good-description a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .good-description a:active {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .good-description img:hover {
+    border-style:groove;
+    border-color: rgb(204, 204, 204);
+  }
