@@ -56,3 +56,9 @@ nav {
     justify-content: center;
     margin-right: 2rem;
 }
+
+.search-in-catalog {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 65%;
+}

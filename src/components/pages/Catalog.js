@@ -8,28 +8,32 @@ import SearchField from "../SearchField";
 import reactDom from "react-dom";
 
 const Catalog = () => {
-    const catalogItems = goodsList; 
+    const catalogItems = goodsList;
 
-    return(
+    return (
         <div className='catalog-page-container'>
             <div className='filters'>
-                <div>
-                    <SelectDropdown
-                        options={artists}
-                    />
+                <div className='filter-panel'>
+                    <div>
+                        <SelectDropdown
+                            options={artists}
+                            placeholder='Artists...'
+                        />
+                    </div>
+                    <div>
+                        <SelectDropdown
+                            options={styles}
+                            placeholder='Styles...'
+                        />
+                    </div>
                 </div>
                 <div>
-                <SelectDropdown
-                        options={styles}
-                    />
-                </div>
-                <div>
-                    <button className='apply-button'>Apply</button>
+                    <button className='apply-button-dropdown'>Apply</button>
                 </div>
             </div>
             <div className='catalog-content'>
                 <div className='catalog-items'>
-                    {catalogItems.map((element, index) => 
+                    {catalogItems.map((element, index) =>
                         <div className={`item-${index}`}>
                             <GoodCard
                                 good_code={Math.floor(Math.random() * 9999)}
@@ -48,9 +52,9 @@ const Catalog = () => {
 }
 
 function cutDescription(text) {
-    return text.length < 100 
-    ? text 
-    : `${text.substring(0, 100)}...`;
+    return text.length < 100
+        ? text
+        : `${text.substring(0, 100)}...`;
 }
 
 export default Catalog;

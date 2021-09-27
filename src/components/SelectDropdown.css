@@ -1,0 +1,10 @@
+.select-dropdown {
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 300px;
+    border: 0px;
+    border-radius: 5%;
+}

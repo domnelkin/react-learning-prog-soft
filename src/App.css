@@ -32,11 +32,40 @@
 }
 
 .catalog-items {
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 15%;
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-gap: 100px;
   justify-content: center;
   width: 100%;
+}
+
+.filters {
+  min-width: 100%;
+  padding: 10px;
+  padding-left: 3%;
+  background-color: rgb(228, 228, 228);
+}
+
+.apply-button-dropdown {
+  position: absolute;
+  margin-top: -43px;
+  margin-left: 35%;
+  width: 120px;
+  height: 35px;
+  background-color: #f3f3f3;
+  border: 0px;
+  border-radius: 5%;
+
+}
+
+.apply-button-dropdown:hover {
+  background-color: #434446;
+}
+
+.filter-panel {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  width: 35%;
 }

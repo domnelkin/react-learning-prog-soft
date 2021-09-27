@@ -25,7 +25,9 @@ const Navbar = () => {
                         <HeaderButton link='/cart' name='Cart' />
                     </li>
                 </ul>
+                <div className="search-in-catalog">
                 <SearchField onChange={searchInCatalog} />
+                </div>
             </div>
         </nav>
     );

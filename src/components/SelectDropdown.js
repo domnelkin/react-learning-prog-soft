@@ -1,5 +1,7 @@
 import React from 'react';
+import './SelectDropdown.css';
 import Select from 'react-select';
+
 
 class SelectDropdown extends React.Component {
 
@@ -21,6 +23,7 @@ class SelectDropdown extends React.Component {
                     value={this.state.selectedOption}
                     onChange={this.handleChange}
                     options={this.props.options}
+                    placeholder={this.props.placeholder}
                 />
             </div>
         );

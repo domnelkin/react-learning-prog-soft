@@ -1,0 +1,12 @@
+.search-input {
+    height: 30px;
+    width: 280px;
+    background-color: #e2e2e2;
+    border: 0px;
+    border-radius: 5%;
+}
+
+.search-input :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
