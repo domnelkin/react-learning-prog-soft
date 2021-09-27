@@ -4,8 +4,6 @@ import goodsList from "../../data/GoodsList";
 import { artists, styles } from "../../data/FilterOptions";
 import GoodCard from "../GoodCard";
 import SelectDropdown from "../SelectDropdown";
-import SearchField from "../SearchField";
-import reactDom from "react-dom";
 
 const Catalog = () => {
     const catalogItems = goodsList;
