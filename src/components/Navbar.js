@@ -2,6 +2,7 @@ import React from "react";
 import './Navbar.css';
 import HeaderButton from "./HeaderButton";
 import { Link } from 'react-router-dom';
+import SearchField from "./SearchField";
 
 const Navbar = () => {
     return (
@@ -13,7 +14,7 @@ const Navbar = () => {
                         <img src='logo200.png' className='logo-img' alt='Logo' />
                     </div>
                 </Link>
-                <ul className='main-navigation'>            
+                <ul className='main-navigation'>
                     <li>
                         <HeaderButton link='/' name='Home' />
                     </li>
@@ -24,9 +25,25 @@ const Navbar = () => {
                         <HeaderButton link='/cart' name='Cart' />
                     </li>
                 </ul>
+                <SearchField onChange={searchInCatalog} />
             </div>
         </nav>
     );
+}
+
+function searchInCatalog(e) {
+    const inputValue = e.target.value.toUpperCase();
+    const catalogItems = document.querySelectorAll(".catalog-items > div");
+
+    catalogItems.forEach(item => {
+        let title = item.querySelector(".good-description h4");
+        let titleText = title.textContent.toUpperCase();
+        if(titleText.includes(inputValue)) {
+            item.style.display = "";
+        } else {
+            item.style.display = "none";
+        }
+    });
 }
 
 export default Navbar;

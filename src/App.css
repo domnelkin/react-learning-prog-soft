@@ -30,3 +30,13 @@
   margin: auto;
   margin-top: 15%;
 }
+
+.catalog-items {
+  margin-top: 10%;
+  margin-bottom: 15%;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 100px;
+  justify-content: center;
+  width: 100%;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import './GoodCard.css'
 import { Link } from 'react-router-dom';
 import ContentButton from './ContentButton';
 

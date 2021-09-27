@@ -4,9 +4,11 @@ import goodsList from "../../data/GoodsList";
 import { artists, styles } from "../../data/FilterOptions";
 import GoodCard from "../GoodCard";
 import SelectDropdown from "../SelectDropdown";
+import SearchField from "../SearchField";
+import reactDom from "react-dom";
 
 const Catalog = () => {
-    const catalogItems = goodsList;
+    const catalogItems = goodsList; 
 
     return(
         <div className='catalog-page-container'>
@@ -32,7 +34,7 @@ const Catalog = () => {
                             <GoodCard
                                 good_code={Math.floor(Math.random() * 9999)}
                                 img={element.img}
-                                title={element.title}
+                                title={element.name}
                                 text={cutDescription(element.description)}
                                 price={element.price}
                                 link={`/catalog${element.link}`}
