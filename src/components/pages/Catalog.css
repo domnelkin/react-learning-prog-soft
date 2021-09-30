@@ -1,0 +1,6 @@
+.search-field {
+    position: fixed;
+    margin-left: 80%;
+    margin-top: -55px;
+    z-index: 1000;
+}

@@ -1,10 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import '../../App.css';
 import NewsBlock from "../NewsBlock";
 import MainBlock from '../MainBlock'
 import ContentButton from "../ContentButton";
+import newsList from "../../data/NewsList";
+import ActionButton from "../ActionButton";
 
 const Home = () => {
+    const [newsItems, setNewsItems] = useState(newsList);
+    const [newsCount, setNewsCount] = useState(3);
+
+    console.log(newsItems.length)
+    console.log(newsCount)
+
+    const showMore = () => {
+        if (newsItems.length >= newsCount + 6) {
+            setNewsCount(newsCount + 6);
+        } else {
+            setNewsCount(newsCount + (newsItems.length - newsCount));
+            document.querySelector(".action-button").style.display = "none";
+        }
+    }
+
     return (
         <div className='home-page-container'>
             <div className='content'>
@@ -23,27 +40,18 @@ const Home = () => {
             </div>
             <div className='main-text-content'><h1>The best shop of ARTS</h1></div>
             <div className='blog'>
-                <NewsBlock
-                    img='images\Photo-1.jpg'
-                    title='What Does Art Mean?'
-                    text='The meaning of art is shaped by the intentions of the artist as well as the feelings and ideas it engenders in the viewer.'
-                    link='/'
-                />
-                <NewsBlock
-                    img='images\Photo-2.jpg'
-                    title='What Makes Art Beautiful?'
-                    text='Beauty in terms of art refers to an interaction between line, color, texture, sound, shape, motion, and size that is pleasing to the senses.'
-                    link='/'
-                />
-                <NewsBlock
-                    img='images\Photo-3.jpg'
-                    title='Who Is an Artist?'
-                    text='An artist is a person who is involved in the wide range of activities that are related to creating art.'
-                    link='/'
-                />
+                {
+                    newsItems.slice(0, newsCount).map(item =>
+                        <NewsBlock
+                            img={item.img}
+                            title={item.title}
+                            text={item.description}
+                            link={`/${item.title.replace(" ", "-")}`}
+                        />)
+                }
             </div>
             <div class="main-btn">
-                <ContentButton link='/' name='View more' />
+                <ActionButton title="View more" onClick={showMore} />
             </div>
         </div>
     );

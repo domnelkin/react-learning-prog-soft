@@ -1,4 +1,5 @@
 export const artists = [
+    { value: 'All', label: 'All' },
     { value: 'Claude Monet', label: 'Claude Monet' },
     { value: 'Vincent van Gogh', label: 'Vincent van Gogh' },
     { value: 'Pablo Picasso', label: 'Pablo Picasso' },
@@ -7,15 +8,16 @@ export const artists = [
     { value: 'Salvador Dalí', label: 'Salvador Dalí' },
     { value: 'Sandro Botticelli', label: 'Sandro Botticelli' },
     { value: 'Edvard Munch', label: 'Edvard Munch' },
-  ];
-  
-  export const styles = [
-      { value: 'Modernism', label: 'Modernism' },
-      { value: 'Impressionism', label: 'Impressionism' },
-      { value: 'Abstract Art', label: 'Abstract Art' },
-      { value: 'Expressionism', label: 'Expressionism' },
-      { value: 'Cubism', label: 'Cubism' },
-      { value: 'Surrealism', label: 'Surrealism' },
-      { value: 'Photorealism', label: 'Surrealism' },
-      { value: 'Surrealism', label: 'Surrealism' },
-  ]
+];
+
+export const styles = [
+    { value: 'All', label: 'All' },
+    { value: 'Modernism', label: 'Modernism' },
+    { value: 'Impressionism', label: 'Impressionism' },
+    { value: 'Abstract Art', label: 'Abstract Art' },
+    { value: 'Expressionism', label: 'Expressionism' },
+    { value: 'Cubism', label: 'Cubism' },
+    { value: 'Surrealism', label: 'Surrealism' },
+    { value: 'Photorealism', label: 'Surrealism' },
+    { value: 'Surrealism', label: 'Surrealism' },
+]

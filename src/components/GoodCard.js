@@ -14,6 +14,8 @@ const GoodCard = (props) => {
             </div>
             <div className='good-description'>
                 <Link to={props.link}><h4>{props.title}</h4></Link>
+                <Link to={props.link}><h5>{props.style}</h5></Link>
+                <Link to={props.link}><h5>{props.size}</h5></Link>
                 <Link to={props.link}><p>{props.text}</p></Link>
             </div>
             <div className='price'>

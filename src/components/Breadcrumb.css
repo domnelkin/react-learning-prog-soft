@@ -1,0 +1,15 @@
+.breadcrumb {
+    width: 100px;
+    height: 25px;
+    background-color: cornflowerblue;
+    margin: 5px;
+    border-radius: 7%;
+    font-size: 13px;
+    color: cornsilk;
+}
+
+.breadcrumb-text {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}

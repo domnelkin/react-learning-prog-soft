@@ -69,3 +69,69 @@
   grid-template-columns: repeat(2, auto);
   width: 35%;
 }
+
+/* product page */
+
+.product-details {
+width: 96%;
+height: 700px;
+background-color: #f3f3f3;
+margin-top: 20px;
+margin-left: 2%;
+border-radius: 1%;
+}
+
+.product-info {
+  margin-left: 50%;
+  margin-top: 3%;
+  width: 83%;
+  height: 400px;
+  border-radius: 1%;
+  background-color: #e6e6e6;
+  padding: 2%;
+}
+
+.charactersitics {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin-top: 10px;
+  width: 30%;
+}
+
+.order-info {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin: 10px;
+}
+
+.count-input {
+  padding-left: 10px;
+  height: 35px;
+  width: 280px;
+  background-color: white;
+  border: 0px;
+  border-radius: 5%;
+}
+
+.price-block {
+  width: 15%;
+  float: left;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  font-size: 35px;
+  font-weight:bold;
+  margin-bottom: 10px;
+  margin-top: 5%;
+}
+
+.actions {
+  width: calc((100% - 600px * 2) / 2);
+  float: right;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin-top: 7%;
+  margin-right: 10%;
+  padding: 10px;
+}
+
+
