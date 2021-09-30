@@ -82,7 +82,7 @@ border-radius: 1%;
 }
 
 .product-info {
-  margin-left: 50%;
+  margin-left: 90%;
   margin-top: 3%;
   width: 83%;
   height: 400px;
@@ -132,6 +132,19 @@ border-radius: 1%;
   margin-top: 7%;
   margin-right: 10%;
   padding: 10px;
+}
+
+.product-image {
+  position: absolute;
+  max-width: 1000%;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.product-image img {
+border-radius: 3%;
+width: 500px;
+height: 500px;
 }
 
 

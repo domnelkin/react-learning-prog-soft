@@ -4,7 +4,6 @@ import { useParams } from "react-router";
 import goodsList from "../../data/GoodsList";
 import Breadcrumb from "../Breadcrumb";
 import ContentButton from "../ContentButton";
-import GoodCard from "../GoodCard";
 import SelectDropdown from "../SelectDropdown";
 
 const ProductPage = () => {
@@ -15,12 +14,12 @@ const ProductPage = () => {
         <div className='product-details'>
             <div className='top-part'>
                 <span className='product-image'>
-                    <img src={product.img} alt='Image' />
+                    <img src={`/${product.img}`} alt='Image' />
                 </span>
                 <span className='product-info'>
                     <div className='charactersitics'>
-                        <Breadcrumb text='1 characteristic' />
-                        <Breadcrumb text='2 characteristic' />
+                        <Breadcrumb text={product.author} />
+                        <Breadcrumb text={product.style} />
                     </div>
                     <div className='prodict-description'>
                         <h2>{product.name}</h2>
